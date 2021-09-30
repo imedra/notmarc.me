@@ -113,7 +113,7 @@ export default function Home() {
           <div className="badge badge-success mx-2">NEW</div>
           <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
-          <p>Hey, you're on this site! This is my personal website fully self-developed using Node.js, Tailwind, and DaisyUI. Feel free to use it as a template for your own websites.</p> 
+          <p>Hey, you&apos;re on this site! This is my personal website fully self-developed using Node.js, Tailwind, and DaisyUI. Feel free to use it as a template for your own websites.</p> 
           <div className="card-actions">
             <button className="btn btn-ghost">View Source Code</button>            
           </div>
