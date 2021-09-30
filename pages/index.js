@@ -115,7 +115,7 @@ export default function Home() {
             </h2> 
           <p>Hey, you&apos;re on this site! This is my personal website fully self-developed using Node.js, Tailwind, and DaisyUI. Feel free to use it as a template for your own websites.</p> 
           <div className="card-actions">
-            <a href="http://shrtn.ninja" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>            
+            <a href="https://github.com/imedra/notmarc.me" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>            
           </div>
           </div>
           </div>
