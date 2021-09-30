@@ -175,7 +175,7 @@ export default function Home() {
             </div> 
            <div>
             <span className="footer-title">Email</span> 
-            <a href="mailto:youremailhere@gmail.com"className="link link-hover">youremailhere@gmail.com</a> 
+            <a href="mailto:marcbernardino2005@gmail.com"className="link link-hover">marcbernardino2005@gmail.com</a> 
           </div>
       </footer>
       </section>
