@@ -2,9 +2,14 @@
 import Head from 'next/head'
 export default function Home() {
   return (
+    <div>
+      <Head>
+        <title>notmarc.me</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+      </Head>
       <body>
         <nav className="flex justify-center">
-          <div data-aos="zoom-y-out" className="navbar static mb-2 shadow-2xl bg-base-100 text-neutral-content rounded-box fixed top-5 z-50">
+          <div data-aos="zoom-y-out" className="navbar static mb-2 shadow-2xl bg-gray-600 text-neutral-content rounded-box fixed top-5 z-50">
             <div className="flex-1">
               <div className="items-stretch hidden lg:flex">
                 <a className="btn btn-ghost btn-sm rounded-btn" href="#home">
@@ -13,10 +18,10 @@ export default function Home() {
                 <a className="btn btn-ghost btn-sm rounded-btn" href="#about">
                         About
                       </a> 
-                <a className="btn btn-ghost btn-sm rounded-btn"href="#projects">
+                <a className="btn btn-ghost btn-sm rounded-btn" href="#projects">
                         Projects
                       </a> 
-                <a className="btn btn-ghost btn-sm rounded-btn"href="#contact">
+                <a className="btn btn-ghost btn-sm rounded-btn" href="#contact">
                         Contact
                       </a>
               </div>
@@ -37,23 +42,23 @@ export default function Home() {
                 </div>                
                <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
                   <li>
-                    <a>Home</a>
+                    <a href="#home">Home</a>
                   </li> 
                   <li>
-                    <a>Portfolio</a>
+                    <a href="#about">About</a>
                   </li> 
                   <li>
-                    <a>About</a>
+                    <a href="#projects">Projects</a>
                   </li>
                   <li>
-                    <a>Contact</a>
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
                 </div>
             </div>
           </div>
         </nav>
-        <div id="home" className="hero relative min-h-screen bg-base-200">
+        <div id="home" className="hero relative min-h-screen bg-gray-900 bg-opacity-80">
           <svg data-aos="zoom-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230" className="absolute bottom-0">
             <path fill="#f3f4f5" fillOpacity="1" d="M0,32L60,74.7C120,117,240,203,360,202.7C480,203,600,117,720,106.7C840,96,960,160,1080,176C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
           </svg>
@@ -64,7 +69,7 @@ export default function Home() {
             <path fill="#f3f4f5" fillOpacity="0.2" d="M0,32L48,53.3C96,75,192,117,288,117.3C384,117,480,75,576,101.3C672,128,768,224,864,250.7C960,277,1056,235,1152,197.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
           <div className="hero-content z-40">
-            <div className="flex-col hero-content lg:flex-row">
+            <div className="flex-col hero-content lg:flex-row text-white">
               <img data-aos="fade-right" data-aos-delay="300" src="https://media.discordapp.net/attachments/789282395949367326/883105623414304799/waving-hand-emoji.png" className="object-contain h-32 md:h-64 mb-5 max-w-sm rounded-lg"></img>
             <div>
              <div data-aos="fade-left" data-aos-delay="450">
@@ -85,7 +90,7 @@ export default function Home() {
         <section id="about" className="hero relative bg-gray-100 h-auto">
           <div data-aos="fade-right" data-aos-delay="100" className="hero-content flex-col lg:flex-row-reverse z-40">
             <img src="https://media.discordapp.net/attachments/789282395949367326/883176205602394112/PHO000000XoZec-11100000010100.png" className="rounded-full shadow-2xl"></img>
-          <div data-aos="fade-left" data-aos-delay="200" className="text-base-300 text-center md:text-left">
+          <div data-aos="fade-left" data-aos-delay="200" className="text-gray-800 text-center md:text-left">
             <h1 className="mb-5 text-5xl font-light">
               About <span className="font-medium">Me</span>
             </h1> 
@@ -95,21 +100,23 @@ export default function Home() {
           </div>
           </div>
         </section>
+        <div className="bg-gray-700">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 90 1440 144" className="relative top-0">
            <path fill="#f3f4f5" fillOpacity="1" d="M0,224L48,218.7C96,213,192,203,288,192C384,181,480,171,576,170.7C672,171,768,181,864,192C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
           </svg>
-        <section id="projects"  className="hero relative bg-grey-700 h-auto pb-48">
+        </div>
+        <section id="projects"  className="hero relative bg-gray-700 h-auto pb-48">
         <svg data-aos="zoom-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180" className="absolute bottom-0">
-           <path fill="#2a2e37" fillOpacity="1" d="M0,96L80,96C160,96,320,96,480,112C640,128,800,160,960,160C1120,160,1280,128,1360,112L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+           <path fill="#1e2837" fillOpacity="1" d="M0,96L80,96C160,96,320,96,480,112C640,128,800,160,960,160C1120,160,1280,128,1360,112L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
           </svg>
           <div className="hero-content flex-col">          
-            <h1 data-aos="zoom-out" className="mt-5 mb-8 text-5xl font-medium text-center">
+            <h1 data-aos="zoom-out" className="mt-5 mb-8 text-5xl text-white font-medium text-center">
               Released Projects
             </h1>    
           <div className="lg:flex flex-row w-full lg:space-x-4">
           <div data-aos="fade-right" data-aos-delay="300" className="card lg:card-side bordered">
-          <div className="card-body bg-neutral">
-            <h2 className="card-title">notmarc.me
+          <div className="card-body bg-neutral text-white">
+          <h2 className="card-title">notmarc.me
           <div className="badge badge-success mx-2">NEW</div>
           <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
@@ -120,7 +127,7 @@ export default function Home() {
           </div>
           </div>
           <div data-aos="fade-right"className="card lg:card-side bordered">
-          <div className="card-body bg-neutral">
+          <div className="card-body bg-neutral text-white">
             <h2 className="card-title">Headphones
           <div className="badge badge-success mx-2">NEW</div>
           <div className="badge badge-error mx-2">Closed-source</div>
@@ -132,27 +139,27 @@ export default function Home() {
           </div>
           </div>
           <div data-aos="fade-left" className="card lg:card-side bordered">
-          <div className="card-body bg-neutral">
+          <div className="card-body bg-neutral text-white">
             <h2 className="card-title">ChiVaxTrack
             <div className="badge badge-warning mx-2">Depreciated</div>
             <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
           <p>An open source website that tracks ongoing vaccinations for the City of Chicago. Data is derived from the City of Chicago and updates in real time.</p> 
           <div className="card-actions">
-            <a href="https://chivaxtrack.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Live Demo</a> 
+            <a href="https://chivaxtrack.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-white">Live Demo</a> 
             <a href="https://github.com/imedra/ChiVaxTrack" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>
           </div>
           </div> 
           </div>
           <div data-aos="fade-left" data-aos-delay="300" className="card lg:card-side bordered">
-          <div className="card-body bg-neutral">
+          <div className="card-body bg-neutral text-white">
             <h2 className="card-title">shrtn.ninja
             <div className="badge badge-warning mx-2">Depreciated</div>
             <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
           <p>A simple URL (and open source) link shortener utilizing MongoDB. Supports all links and will shorten them down to something much shorter.</p> 
           <div className="card-actions">
-            <a href="http://shrtn.ninja" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Live Demo</a> 
+            <a href="http://shrtn.ninja" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-white">Live Demo</a> 
             <a href="https://github.com/imedra/shrtn.ninja" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>
           </div>
           </div>
@@ -161,7 +168,7 @@ export default function Home() {
           </div>
         </section>
         <section id="contact">
-          <footer className="p-10 footer bg-neutral text-neutral-content">
+          <footer className="p-10 footer bg-gray-800 text-neutral-content">
             <div>
             </div>
             <h1 className="mb-5 text-5xl font-light justify-center">
@@ -180,5 +187,6 @@ export default function Home() {
       </footer>
       </section>
       </body>
+      </div>
   )
 }
