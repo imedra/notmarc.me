@@ -117,7 +117,6 @@ export default function Home() {
           <div data-aos="fade-right" data-aos-delay="300" className="card lg:card-side bordered">
           <div className="card-body bg-neutral text-white">
           <h2 className="card-title">notmarc.me
-          <div className="badge badge-success mx-2">NEW</div>
           <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
           <p>Hey, you&apos;re on this site! This is my personal website fully self-developed using Node.js, Tailwind, and DaisyUI. Feel free to use it as a template for your own websites.</p> 
@@ -130,11 +129,12 @@ export default function Home() {
           <div className="card-body bg-neutral text-white">
             <h2 className="card-title">Headphones
           <div className="badge badge-success mx-2">NEW</div>
-          <div className="badge badge-error mx-2">Closed-source</div>
+          <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
           <p>A free-to-use (yet highly expirimental!) Discord Music Bot! Supports YouTube search and URL finding. RIP Rhythm, Groovy and Hydra (kinda), you will be missed!</p> 
           <div className="card-actions">
-            <a href="https://discord.com/api/oauth2/authorize?client_id=887867522588753980&permissions=515462425664&scope=bot" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Invite to Discord</a> 
+            <a href="https://discord.com/api/oauth2/authorize?client_id=908171292249817099&permissions=139623459904&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Invite to Discord</a>
+            <a href="https://github.com/imedra/Headphones" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>
           </div>
           </div>
           </div>
