@@ -159,7 +159,7 @@ export default function Home() {
             </h2> 
           <p>A simple URL (and open source) link shortener utilizing MongoDB. Supports all links and will shorten them down to something much shorter.</p> 
           <div className="card-actions">
-            <a href="http://shrtn.ninja" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-white">Live Demo</a> 
+            <a href="https://shrnk-ninja.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-white">Live Demo</a> 
             <a href="https://github.com/imedra/shrtn.ninja" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>
           </div>
           </div>
