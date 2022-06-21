@@ -111,10 +111,23 @@ export default function Home() {
           </svg>
           <div className="hero-content flex-col">          
             <h1 data-aos="zoom-out" className="mt-5 mb-8 text-5xl text-white font-medium text-center">
-              Released Projects
+              Projects
             </h1>    
-          <div className="lg:flex flex-row w-full lg:space-x-4">
+          <div className="lg:flex flex-row w-full lg:space-x-3">
           <div data-aos="fade-right" data-aos-delay="300" className="card lg:card-side bordered">
+          <div className="card-body bg-neutral text-white">
+            <h2 className="card-title">Maple
+          <div className="badge badge-success mx-2">NEW</div>
+          <div className="badge badge-info mx-2">Open-source</div>
+            </h2> 
+            <p>An all-in-one webapp for CPS students. Check your grades, attendance, bus times, and more. Built on Framework7 + React. Currently a work in progress!</p> 
+          <div className="card-actions">
+          <a href="https://mapletest.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-white">Open App</a> 
+            <a href="https://github.com/imedra/Maple" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">View Source Code</a>
+          </div>
+          </div>
+          </div>
+          <div data-aos="fade-right" className="card lg:card-side bordered">
           <div className="card-body bg-neutral text-white">
           <h2 className="card-title">notmarc.me
           <div className="badge badge-info mx-2">Open-source</div>
@@ -125,10 +138,9 @@ export default function Home() {
           </div>
           </div>
           </div>
-          <div data-aos="fade-right"className="card lg:card-side bordered">
+          <div data-aos="fade"className="card lg:card-side bordered">
           <div className="card-body bg-neutral text-white">
             <h2 className="card-title">Headphones
-          <div className="badge badge-success mx-2">NEW</div>
           <div className="badge badge-info mx-2">Open-source</div>
             </h2> 
           <p>A free-to-use (yet highly expirimental!) Discord Music Bot! Supports YouTube search and URL finding. RIP Rhythm, Groovy and Hydra (kinda), you will be missed!</p> 
